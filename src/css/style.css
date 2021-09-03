@@ -340,7 +340,7 @@ footer {
   }
 }
 */
-*,
+/* *,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -445,7 +445,7 @@ h3 {
 
 nav {
   display: none;
-}
+} */
 
 /* intro section */
 /* 
