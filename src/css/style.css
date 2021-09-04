@@ -347,7 +347,7 @@ footer {
 }
 
 /* custom properties */
-
+/* 
 :root {
   --ff-primary: "Source Sans Pro", sans-serif;
   --ff-secondary: "Source Code Pro", monospace;
@@ -376,14 +376,14 @@ footer {
 
 /*   GENERAL STYLES  */
 
-body {
+/* body {
   background: var(--clr-light);
   color: var(--clr-dark);
   margin: 0;
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
-  line-height: 1.6;
-}
+  line-height: 1.6; */
+/* }
 
 section {
   padding: 5em 2em;
@@ -399,7 +399,7 @@ strong {
 }
 
 /*   Typography     */
-
+/* 
 h1,
 h2,
 h3 {
@@ -439,11 +439,11 @@ h3 {
   background: var(--clr-accent);
   font-family: var(--ff-secondary);
   margin-bottom: 1em;
-}
+} */
 
 /* header */
 
-nav {
+/* nav {
   display: none;
 } */
 
