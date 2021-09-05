@@ -16,7 +16,7 @@ body {
   width: 100%;
   margin: 0 auto;
   font-family: "Abhaya Libre", serif;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   line-height: 1.4;
 }
 
@@ -52,18 +52,18 @@ h2:first-child {
 }
 
 a {
-  color: #76323F;
+  color: #76323f;
   text-decoration: none;
   display: inline-block;
   padding: 0.1rem 0.3rem 0;
   margin: 0 -0.3rem;
   line-height: 1.1;
-  font-weight: 700;
+  font-weight: 800;
 }
 a:hover,
 a:focus {
   color: #fff;
-  background-color: #76323F;
+  background-color: #76323f;
 }
 
 p {
@@ -96,18 +96,18 @@ ul a {
 }
 
 .grid {
-  display: -webkit-box;
+  /* display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
-  display: -webkit-flex;
+  display: -webkit-flex; */
   display: flex;
-  -webkit-flex-flow: row wrap;
+  /* -webkit-flex-flow: row wrap; */
   /* Safari 7.0+ */
   flex-flow: row wrap;
-  -webkit-justify-content: flex-start;
+  /* -webkit-justify-content: flex-start; */
   /* Safari 7.0+ */
   justify-content: flex-start;
-  -webkit-align-items: flex-start;
+  /* -webkit-align-items: flex-start; */
   /* Safari 7.0+ */
   align-items: flex-start;
   height: 100%;
@@ -306,6 +306,7 @@ footer .social {
 footer .social li {
   display: block;
   padding: 0 1rem;
+  font-size: 1.9rem;
 }
 @media only screen and (min-width: 450px) {
   footer .social li {
@@ -315,4 +316,5 @@ footer .social li {
 footer .email {
   text-align: center;
   padding: 1rem 0;
+  font-size: 1.9rem;
 }
