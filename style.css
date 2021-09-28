@@ -96,19 +96,9 @@ ul a {
 }
 
 .grid {
-  /* display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex; */
   display: flex;
-  /* -webkit-flex-flow: row wrap; */
-  /* Safari 7.0+ */
   flex-flow: row wrap;
-  /* -webkit-justify-content: flex-start; */
-  /* Safari 7.0+ */
   justify-content: flex-start;
-  /* -webkit-align-items: flex-start; */
-  /* Safari 7.0+ */
   align-items: flex-start;
   height: 100%;
   width: 100%;
@@ -146,7 +136,7 @@ h1 {
 }
 
 .about {
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 .about .image {
   width: 100%;
@@ -162,6 +152,7 @@ h1 {
 @media only screen and (max-width: 769px) {
   .about .text p {
     margin-top: 0;
+    margin-bottom: 1rem;
   }
 }
 @media only screen and (min-width: 769px) {
