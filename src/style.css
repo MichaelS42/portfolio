@@ -281,6 +281,9 @@ h1 {
 .experience .grid .timeframe {
   margin-top: 0;
 }
+.experience .grid .bullet_point {
+  list-style-type: circle
+} 
 
 footer {
   text-align: center;
